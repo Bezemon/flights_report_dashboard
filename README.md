@@ -1,7 +1,7 @@
 # Análise do Fluxo de Passageiros no Aeroporto
 
 Este projeto foi desenvolvido durante o curso "**Profissão: Analista de Dados**" na **EBAC** (Escola Britânica de Artes Criativas) com o auxílio do meu professor **André Perez**.
-O objetivo foi analisar o fluxo mensal de passageiros utilizando o dataset [**"flights"**](https://github.com/Bezemon/flights_report_dashboard/blob/main/flights.csv), para apoiar a equipe de operações de um grande aeroporto na tomada de decisões relacionadas à manutenção, obras e otimização de processos. A análise e visualização dos dados foram realizadas com o objetivo de identificar tendências sazonais e picos de demanda.
+O objetivo foi analisar o fluxo mensal de passageiros utilizando o dataset **"flights"**, para apoiar a equipe de operações de um grande aeroporto na tomada de decisões relacionadas à manutenção, obras e otimização de processos. A análise e visualização dos dados foram realizadas com o objetivo de identificar tendências sazonais e picos de demanda.
 
 ---
 ## Descrição do Projeto
@@ -49,20 +49,17 @@ Para a visualização dos dados, utilizei o **Google Data Studio** (agora conhec
 
 ### **1.1. Fonte de Dados**
 
-A fonte de dados foi criada através do **upload** do arquivo `flights.csv`. A partir dessa fonte, foi possível construir as visualizações e realizar análises detalhadas.
+A fonte de dados foi criada através do **upload** do arquivo [`flights.csv`](https://github.com/Bezemon/flights_report_dashboard/blob/main/flights.csv). A partir dessa fonte, foi possível construir as visualizações e realizar análises detalhadas.
 
 ### **1.2. Relatório**
 
-O relatório interativo, intitulado **"flights-report"**, foi criado utilizando a fonte de dados `flights-data`. Durante a construção do relatório, editei o layout de acordo com o que considerava mais útil para o time de operações, personalizando cores, textos e outras opções visuais. O link para o relatório está abaixo:
+O relatório interativo, intitulado **"flights-report"**, foi criado utilizando a fonte de dados `flights-data`. Durante a construção do relatório, editei o layout de acordo com o que considerava mais útil para o time de operações, personalizando cores, textos e outras opções visuais. 
 
-[Link para o Relatório no Looker Studio](https://lookerstudio.google.com/reporting/61af7c1b-eb40-465e-bf5d-7509797eae02)
+### Funcionalidades do Dashboard
 
-#### KPI
+- **KPI de Passageiros**: Mostra a soma de passageiros por ano. O valor é dinâmico e muda conforme o filtro temporal.
+- **Gráfico de Série Temporal**: Exibe a soma de passageiros por mês, ajustando-se conforme o ano selecionado.
 
-- **Filtro de Ano**: Criei um filtro a nível de página com a dimensão `year`, permitindo que os usuários visualizem os dados de diferentes anos de forma dinâmica.
-- **Scorecard de Passageiros**: Adicionei um **scorecard** com a **métrica** que representa a **soma dos passageiros em um determinado ano**. O valor do scorecard é dinâmico e se altera conforme a seleção do filtro temporal `year`.
+O link para o **relatório** está abaixo:
 
-#### EDA (Análise Exploratória de Dados)
-
-- **Gráfico de Série Temporal**: Adicionei um gráfico de série temporal (*time series chart*), utilizando a coluna `year-month` como dimensão e a soma da dimensão `passengers` como métrica. Esse gráfico também é dinâmico e se ajusta conforme o filtro temporal `year` é alterado.
-
+[Link para o Relatório "flights-report" no Looker Studio](https://lookerstudio.google.com/reporting/61af7c1b-eb40-465e-bf5d-7509797eae02)
