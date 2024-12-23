@@ -45,6 +45,8 @@ Como analista de dados de um grande aeroporto, propus a criação de um **dashbo
 ---
 ## Dashboard
 
+[Link para o Dashboard no Looker Studio](https://lookerstudio.google.com/reporting/61af7c1b-eb40-465e-bf5d-7509797eae02)
+
 Para a visualização dos dados, utilizei o **Google Data Studio** (agora conhecido como **Looker Studio**) para criar um dashboard interativo que facilita a análise do fluxo de passageiros ao longo do tempo. O processo de criação do dashboard foi dividido em duas etapas principais:
 
 ### **1.1. Fonte de Dados**
@@ -60,8 +62,7 @@ O relatório interativo, intitulado **"flights-report"**, foi criado utilizando 
 - **KPI de Passageiros**: Mostra a soma de passageiros por ano. O valor é dinâmico e muda conforme o filtro temporal.
 - **Gráfico de Série Temporal**: Exibe a soma de passageiros por mês, ajustando-se conforme o ano selecionado.
 
-Aqui está uma visualização do dashboard:
+---
+### Aqui está uma visualização do dashboard:
 
 ![Dashboard](https://github.com/Bezemon/flights_report_dashboard/blob/main/flights_report.png)
-
-[Link para o Dashboard "flights-report" no Looker Studio](https://lookerstudio.google.com/reporting/61af7c1b-eb40-465e-bf5d-7509797eae02)
