@@ -60,6 +60,8 @@ O relatório interativo, intitulado **"flights-report"**, foi criado utilizando 
 - **KPI de Passageiros**: Mostra a soma de passageiros por ano. O valor é dinâmico e muda conforme o filtro temporal.
 - **Gráfico de Série Temporal**: Exibe a soma de passageiros por mês, ajustando-se conforme o ano selecionado.
 
-O link para o **relatório** está abaixo:
+Aqui está uma visualização do dashboard:
 
-[Link para o Relatório "flights-report" no Looker Studio](https://lookerstudio.google.com/reporting/61af7c1b-eb40-465e-bf5d-7509797eae02)
+![Dashboard]([caminho/para/imagem.png](https://github.com/Bezemon/flights_report_dashboard/blob/main/flights_report.png))
+
+[Link para o Dashboard "flights-report" no Looker Studio](https://lookerstudio.google.com/reporting/61af7c1b-eb40-465e-bf5d-7509797eae02)
