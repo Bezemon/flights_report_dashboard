@@ -1,6 +1,6 @@
 # Análise do Fluxo de Passageiros no Aeroporto
 
-Este projeto foi desenvolvido durante o curso "Profissão: Analista de Dados" na **EBAC** (Escola Britânica de Artes Criativas) com o auxílio do meu tutor **André Perez**. O objetivo foi analisar o fluxo mensal de passageiros utilizando o dataset **"flights"**, para apoiar a equipe de operações de um grande aeroporto na tomada de decisões relacionadas à manutenção, obras e otimização de processos. A análise e visualização dos dados foram realizadas com o objetivo de identificar tendências sazonais e picos de demanda.
+Este projeto foi desenvolvido durante o curso "**Profissão: Analista de Dados**" na **EBAC** (Escola Britânica de Artes Criativas) com o auxílio do meu professor **André Perez**. O objetivo foi analisar o fluxo mensal de passageiros utilizando o dataset **"flights"**, para apoiar a equipe de operações de um grande aeroporto na tomada de decisões relacionadas à manutenção, obras e otimização de processos. A análise e visualização dos dados foram realizadas com o objetivo de identificar tendências sazonais e picos de demanda.
 
 ---
 ## Descrição do Projeto
